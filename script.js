@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // Scroll Reveal Animations
-const revealElements = document.querySelectorAll('.reveal-up, .reveal-left, .reveal-right');
+const revealElements = document.querySelectorAll('.reveal-up, .reveal-left, .reveal-right, .reveal-scale, .reveal-rotate');
 
 const revealOnScroll = () => {
     const windowHeight = window.innerHeight;
